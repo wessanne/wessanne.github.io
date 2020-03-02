@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+body {
+	background-color: #f5f0e7;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	font-size: 1em;
+	background: url("../images/cupofcorgee_hero.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-family: 'Voltaire', 'Arial', sans-serif;
+	color: #33190f;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+h1 a{
+	font-family: 'Voltaire', 'Arial', sans-serif;
+	color: #33190f;
+	text-decoration: none;
+	
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1em;
+} 
+
+h2 a{
+	color: #33190f;
+	text-decoration: none;
+}
+
+h3 {
+	font-family: 'Voltaire', 'Arial', sans-serif;
+}
+
+h4 {
+	font-family: 'Voltaire', 'Arial', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: .5em;
+}
+
+h5 a{
+	font-family: 'Voltaire', 'Arial', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: .1em;
+	text-decoration: none;
+}
+
+p {
+	color: #33190f;
+	padding: 10px 10px 10px 10px;
+}
+
+main {
+	padding-top: 350px;
+}
+
+section {
+	color: #33190f;
+	margin-top: 100px;
+}
+
+hr {
+	width: 3em;
+	color: #fff;
+}
+
+.navlinks {
+	font-family: 'Voltaire', 'Arial', sans-serif;
+	font-size: 1.1em;
+	color: #33190f;
+	text-align: right;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: .1em;
+	margin-right: 2em;
+	padding: 1em;
+}
+
+.article {
+	padding-bottom: 40px;
+}
+
+.quote {
+	color: #fff;
+	font-style: italic;
+	font-size: 1.5em;
+	padding: 50px;
+	background: url("../images/coffee-beans.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+}	
+
+.slug {
+	font-size: .5em;
+	letter-spacing: .25em;
+	font-color: #ceb945;
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+.cta {
+	padding: 10px 10px 10px 10px;
+	background-color: #33190f;
+	width: 200px;
+	text-align: center;
+}
+
+#logo {
+	size: auto;
+}
+
+#newsletter {
+	font-color: #fff;
+	background: #000;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
