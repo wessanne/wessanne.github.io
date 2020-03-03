@@ -5,7 +5,7 @@ body {
 	background-color: #f5f0e7;
 	font-family: 'Playfair Display', serif;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1em;  
 	background: url("../images/cupofcorgee_hero.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -63,7 +63,10 @@ p {
 }
 
 main {
-	padding-top: 500px;
+	padding: 600px 50px 50px 50px;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-color: #de3d2c;
 }
 
 section {
@@ -105,7 +108,6 @@ hr {
 .slug {
 	font-size: .5em;
 	letter-spacing: .25em;
-	font-color: #ceb945;
 	text-transform: uppercase;
 	font-style: normal;
 }
