@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+body {
+	background-color: #f5f0e7;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	font-size: 1em;  
+}
+
+header {
+	background-color: #FFED74;
+	padding: 1em 1em 30em 1em;
+}
+
+nav {
+	background-color: #E8C66A;
+	padding: 3em;
+}
+
+nav a {
+	font-family: 'Voltaire', 'Arial', sans-serif;
+	font-size: 1.1em;
+	color: #33190f;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: .1em;
+	margin-right: 1.5em;
+	padding: 3em 1em 0em 0em;
+}
+
+nav a:hover {
+	color: #fff;
+}
+
+h1 {
+	font-family: 'Voltaire', 'Arial', sans-serif;
+	color: #33190f;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Voltaire', 'Arial', sans-serif;
+	font-size: 1.75em;
+	font-weight: lighter;
+}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1em;
+} 
+
+h3 a{
+	color: #33190f;
+	text-decoration: none;
+}
+
+
+h4 {
+	font-family: 'Voltaire', 'Arial', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 1em;
+}
+
+p {
+	color: #33190f;
+	padding: 10px 10px 10px 10px;
+}
+
+article {
+	padding-bottom: 40px;
+	width: 318px;
+	margin: auto;
+}
+
+article h3{
+	margin: .25em;
+	font-size: 1.2em;
+}
+
+hr {
+	width: 3em;
+	color: #fff;
+}
+
+aside {
+	background-color: #FFC675;
+	float: left;
+	padding: 3em;
+}
+
+aside img {
+	width: 325px;
+}
+
+footer {
+	background-color: #FF957E;
+	padding: 1.5em;
+}
+
+#logo {
+	float: left;
+	margin: 1em;
+	padding-right: 6em;
+}
+
+.about {
+	background-color: #FFE2B8;
+	clear: right;
+	padding: 4.25em;
+}
+
+.slug {
+	font-size: .75em;
+	letter-spacing: .25em;
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+.news {
+	background-color: #ebcc9f;
+	padding: 1em;
+}
+
+.quote {
+	font-style: italic;
+	padding: 4.25em;
+	background-color: #FFE2B8;
+}	
+
+.post{
+	background-color: #E89C6C;
+	padding: 1em;
+	text-align: left;
+}
+
+.cta {
+	padding: 10px 10px 10px 10px;
+	background-color: #33190f;
+	width: 100px;
+	text-align: center;
+	margin: auto;
+}
+
+.cta a{
+	font-family: 'Voltaire', 'Arial', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: .1em;
+	text-decoration: none;
+}
+
+.newsletter {
+	background-color: #FFE2B8;
+	padding: 1em;
+}
+
+.newsletter h1 {
+	color: #33190f;
+	margin-bottom: 0em;
+}
+
+.newsletter p {
+	color: #33190f;
+}
+
+#social {
+	margin: 0em;
+}
+
