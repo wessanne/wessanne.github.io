@@ -166,7 +166,8 @@ footer a {
 	padding: 4.25em;
 	background: url("../images/coffee-beans.jpg");
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: 100%;
+
 }	
 
 #adopt {
