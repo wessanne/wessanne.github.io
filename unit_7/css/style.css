@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	font-size: 1em;  
+	background-color: #eae4dc;
+}
+
+h1 {
+	font-family: 'Voltaire', 'Arial', sans-serif;
+	color: #f05435;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Voltaire', 'Arial', sans-serif;
+	font-size: 2em;
+	font-weight: lighter;
+}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.25em;
+} 
+
+h3 a{
+	color: #33190f;
+	text-decoration: none;
+}
+
+h4 {
+	color: #fff;
+	font-family: 'Voltaire', 'Arial', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 1em;
+	padding-top: 1em;
+}
+
+p {
+	color: #33190f;
+	padding: 10px;
+}
+
+header {
+/*	background-color: #FFED74;*/
+	padding: 1em 1em 1em 1em;
+	background: url("../images/cupofcorgee_hero.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 45.45vw;
+	min-height: 320px;
+}
+
+#toparea {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+/*	background-color: pink;*/
+}
+
+#logo {
+/*	float: left;*/
+	width: 30%;
+/*	background-color: pink;*/
+}
+
+nav a {
+	font-family: 'Voltaire', 'Arial', sans-serif;
+	font-size: 1.1em;
+	color: #33190f;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: .1em;
+	margin-left: 1.5em;
+/*	padding: 3em 1em 0em 0em;*/
+	display: inline-block;
+}
+
+nav a:hover {
+	color: #f05435;
+}
+
+.about {
+	background-color: #dbcbb9;
+	clear: right;
+	padding: 4.25em;
+}
+
+.slug {
+	/*color: #f05435;*/
+	font-size: .75em;
+	letter-spacing: .25em;
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+hr {
+	width: 3em;
+	color: #f45334;
+	border-color: none;
+	display: block;
+	margin: 10px auto;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#news{
+	max-width: 1080px;
+	padding: 1.5em;
+	margin: auto;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+.thumb {
+	padding-bottom: 40px;
+	width: 30%;
+	margin: 1em;
+	float: left;
+/*	background-color: violet;*/
+}
+
+.thumb a:hover {
+	color: #f05435;
+	text-decoration: underline;
+}
+
+#quote {
+	color: #fff;
+	font-style: italic;
+	padding: 4.25em;
+	background: url("../images/coffee-beans.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}	
+
+#adopt {
+	padding: 20px;
+}
+
+#left {
+/*	border: 1px black solid;*/
+	float: left;
+	width: 40%;
+}
+
+#right {
+/*	background-color: #E89C6C;*/
+	padding: 1em 3em 1em 2em;
+	text-align: left;
+	float: left;
+	width: 52%;
+}
+
+#right p {
+	padding: 0;
+}
+
+.cta {
+	background-color: #33190f;
+	width: 100px;
+	text-align: center;
+	margin: 2em 0em 2em 0em;
+}
+
+.cta a{
+	padding: 10px 10px 10px 10px;
+	font-family: 'Voltaire', 'Arial', sans-serif;
+	color: #fff;
+	display: block;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: .1em;
+	text-decoration: none;
+}
+
+.cta a:hover{
+	background-color: #f05435;
+}
+
+.newsletter {
+	background-color: #33190f;
+	padding: 1em;
+}
+
+.newsletter h1 {
+	color: #fff;
+	margin-bottom: 0em;
+	font-weight: lighter;
+}
+
+.newsletter p {
+	color: #fff;
+}
+
+footer {
+	background-color: #dbcbb9;
+	padding: 1.5em;
+}
+
+footer a {
+	color: #f45334;
+}	
+
+#social {
+	margin: 0em;	
+	display: flex;
+	justify-content: center;
+}
+
+#social a {
+	width: 30px;
+	display: block;
+	margin: 5px;
+}
