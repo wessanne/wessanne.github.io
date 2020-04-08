@@ -50,7 +50,7 @@ h4{
 
 p{
 	color: #33190f;
-	padding: .6em;
+	padding: 1em;
 }
 
 header{
@@ -403,16 +403,13 @@ footer a{
 		width: 100%;
 	}
 	h2{
-		font-size: 1.25em;
+		font-size: 1.6em;
 	}
 	h1{
-		font-size: 2em;	
+		font-size: 2.25em;	
 	}
 	.thumb h3{
-		font-size: 1em;
-	}
-	p{
-		font-size: .9em;
+		font-size: 1.25em;
 	}
 	label{
 		display: block;
