@@ -231,9 +231,11 @@ footer a{
 }
 
 .newsletter{
-	background-color: #604c44;
-	padding: 2em;
+	padding: 3.5em;
 	width: 100%;
+	background: url("../images/coffeebeansabove.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .newsletter h1{
