@@ -464,4 +464,12 @@ footer a{
 		padding: .75em;
 		width: 21em;
 	}
+	.newsletter{
+		padding: 2.5em;
+		width: 100%;
+		background: url("../images/coffeebeansabove-mobile.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
 }
