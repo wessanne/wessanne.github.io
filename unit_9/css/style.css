@@ -212,7 +212,7 @@ footer a{
 	background-color: #33190f;
 	width: 6.25em;
 	text-align: center;
-	margin: 2em 0em 2em 0em;
+	margin: 2em 0em;
 }
 
 .cta a{
@@ -231,8 +231,8 @@ footer a{
 }
 
 .newsletter{
-	background-color: #f05435;
-	padding: 3em;
+	background-color: #604c44;
+	padding: 2em;
 	width: 100%;
 }
 
@@ -244,6 +244,38 @@ footer a{
 
 .newsletter p{
 	color: #fff;
+}
+
+#email{
+	margin-top: 1em;
+	padding: .5em;
+	width: 25em;
+	font-family: 'Playfair Display', serif;
+	font-size: .75em;
+	color: #7d7d7d;
+	font-style: italic;
+}
+
+.submit{
+	background-color: #33190f;
+	width: 6.25em;
+	text-align: center;
+	margin: 1em auto;
+}
+
+.submit a{
+	padding: .6em;
+	font-family: 'Voltaire', 'Arial', sans-serif;
+	color: #fff;
+	display: block;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: .1em;
+	text-decoration: none;
+}
+
+.submit a:hover{
+	background-color: #f05435;
 }
 
 #social{
@@ -425,4 +457,9 @@ footer a{
 		display: block;
 		margin: .5em;
 	}	
+	#email{
+		margin: .5em auto;
+		padding: .75em;
+		width: 21em;
+	}
 }
